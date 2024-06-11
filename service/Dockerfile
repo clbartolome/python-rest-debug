@@ -2,7 +2,7 @@
 FROM registry.access.redhat.com/ubi9/python-311
 
 # Set environment variables for Flask
-ENV FLASK_APP=app.py
+ENV FLASK_APP=python-api-debug.py
 ENV FLASK_RUN_HOST=0.0.0.0
 ENV FLASK_RUN_PORT=5000
 
